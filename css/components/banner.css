@@ -1,0 +1,16 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/wagon/image/upload/v1574699417/av1er5jhgqhxxctttujk.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0px;
+}
+
+.banner h1, p {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.banner p {
+  opacity: 0.6;
+}

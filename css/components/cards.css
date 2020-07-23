@@ -1,5 +1,36 @@
 .cards {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  min-width: 200px;
+  margin: 0 10px 20px 10px;
+  padding: 20px;
+}
+
+.card img {
+  height: 100px;
+  padding: 40px 40px;
+}
+
+.card h4 {
+  margin-bottom: 0;
+}
+
+.card p {
+  color: #000000;
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
