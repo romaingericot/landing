@@ -30,6 +30,7 @@
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .cards {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
